@@ -1,11 +1,15 @@
 .es-app {
-  --margin: 5px;
-  margin: var(--margin);
-  // height: calc(100vh - 10px);
-  height: calc(100vh - 2 * var(--margin));
-  max-height: 800px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
+  max-width: 425px;
+
+  &__menu-wrap {
+    --margin: 5px;
+    margin: var(--margin);
+    // height: calc(100vh - 10px);
+    height: calc(100vh - 2 * var(--margin));
+    max-height: 800px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
