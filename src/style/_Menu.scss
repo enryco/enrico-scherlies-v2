@@ -1,0 +1,31 @@
+.es-menu {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+
+  &__item {
+    margin-top: 20px;
+    width: 233px;
+    height: 70px;
+    background: #00369C;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    transform: skewY(-6deg);
+    cursor: pointer;
+  }
+
+  &__text {
+    color: white;
+    font-family: Roboto Condensed, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    transform: skewY(6deg) rotate(-6deg);
+  }
+}
