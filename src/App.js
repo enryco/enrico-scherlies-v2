@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
 import Menu from './components/Menu'
+import Logo from './components/Logo'
 
-import content from './fixtures/content'
+import content from './assets/content'
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="es-app">
+        <Logo />
         <Menu />
       </div>
     );
