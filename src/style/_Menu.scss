@@ -1,10 +1,15 @@
 .es-menu {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none;
+  text-align: center;
+
+  &__single-text {
+    margin-bottom: 35px;
+    transform: rotate(-6deg);
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: $darkgrey;
+  }
 
   &__item {
     margin-top: 20px;
@@ -27,5 +32,11 @@
     font-weight: 700;
     font-size: 48px;
     transform: skewY(6deg) rotate(-6deg);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
   }
 }

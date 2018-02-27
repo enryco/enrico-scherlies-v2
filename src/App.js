@@ -8,7 +8,9 @@ import content from './assets/content'
 
 class App extends Component {
 
-  state = {}
+  state = {
+    show: 0,
+  }
 
   render() {
     return (

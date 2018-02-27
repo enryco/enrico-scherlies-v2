@@ -3,6 +3,7 @@
   margin: var(--margin);
   // height: calc(100vh - 10px);
   height: calc(100vh - 2 * var(--margin));
+  max-height: 800px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
