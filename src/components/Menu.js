@@ -15,7 +15,7 @@ class Menu extends Component {
   render() {
 
     return (
-      <div className="es-menu">
+      <div className="es-menu es-crazy">
         <div className="es-menu__single-text">{"I <3 solving problems :)"}</div>
         {
           _.map(this.state.titles, title => <MenuItem title={title} /> )

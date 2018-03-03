@@ -1,0 +1,33 @@
+.es-crazy {
+  animation-name: rotate;
+  animation-duration: 20s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: skew(0deg) rotate(0deg);
+  }
+
+  35% {
+    transform: skew(0deg) rotate(0deg);
+  }
+
+  40% {
+    transform: skew(6deg) rotate(6deg);
+  }
+
+  60% {
+    transform: skew(6deg) rotate(6deg);
+  }
+
+  75% {
+    transform: skew(0deg) rotate(0deg);
+  }
+
+  100% {
+    transform: skew(0deg) rotate(0deg);
+  }
+}

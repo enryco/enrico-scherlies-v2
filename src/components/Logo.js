@@ -6,8 +6,8 @@ const Logo = props => {
 
   const { img } = props
   return (
-    <div className="es-logo">
-      <img src={logo} alt=""/>
+    <div className="es-logo es-crazy">
+      <img className="es-logo__img" src={logo} alt=""/>
     </div>
   )
 }

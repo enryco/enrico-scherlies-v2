@@ -15,7 +15,7 @@
     margin-top: 20px;
     width: 233px;
     height: 70px;
-    background: #00369C;
+    background: $primary;
     border-radius: 15px;
     display: flex;
     flex-flow: row;
@@ -23,6 +23,10 @@
     align-items: center;
     transform: skewY(-6deg);
     cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1) skewY(-5deg);
+    }
   }
 
   &__text {
