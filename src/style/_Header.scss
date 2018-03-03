@@ -1,0 +1,19 @@
+.es-header {
+
+  &__title {
+    margin-top: 10px;
+    color: $white;
+    font-family: Roboto Condensed, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    transform: skewY(-6deg);
+    transform-origin: -50% 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+  }
+}

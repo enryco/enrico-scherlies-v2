@@ -1,5 +1,14 @@
 .es-menu {
-  text-align: center;
+  grid-area: menu;
+  // text-align: center;
+  // height: calc(100vh - 10px);
+  // height: calc(100vh - 2 * $margin);
+  // height: 100vh;
+  max-height: 800px;
+  // display: flex;
+  // flex-flow: column;
+  // justify-content: space-around;
+  // align-items: center;
 
   &__single-text {
     margin-bottom: 35px;
